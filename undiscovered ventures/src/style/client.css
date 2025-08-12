@@ -1,15 +1,15 @@
 .client{
     width: 95%;
-    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     background-image: linear-gradient(to bottom, #010101, #260d17);
     margin: 20px 0;
     border-radius: 10px;
     color: white;
     justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
 }
 .client-heading{
     width: 80%;
@@ -59,3 +59,18 @@ button:hover{
         color: #000;
     }
 }
+
+@media (max-width: 900px) {
+    .client-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+        gap: 8px; /* Adjust space between images */
+        align-items: center;
+    }
+    
+    .client-heading {
+        flex-direction: column; /* Stack heading elements vertically */
+        align-items: center; /* Center align items */
+    }
+}
+
+

@@ -31,11 +31,11 @@
 }
 .service-item {
   width: 40%;
-
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
   .item-heading {
     font-size: 1rem;
     font-weight: bold;
@@ -68,21 +68,24 @@
     }
   }
 }
+.service-item:hover {
+  transform: rotate(5deg) scale(1.05);
+}
 
 @media (max-width: 768px) {
-    .service {
-        padding: 10px;
+  .service {
+    padding: 10px;
+  }
+  .service-header {
+    .s-header {
+      font-size: 1.5rem;
+      margin-left: 20px;
     }
-    .service-header {
-        .s-header {
-            font-size: 1.5rem;
-            margin-left: 20px;
-        }
-        .s-subheader {
-            font-size: .8rem;
-            margin-right: 20px;
-        }
+    .s-subheader {
+      font-size: 0.8rem;
+      margin-right: 20px;
     }
+  }
   .service-list {
     flex-direction: column;
     align-items: center;
