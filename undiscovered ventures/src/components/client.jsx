@@ -12,34 +12,34 @@ export default function Client() {
       </div>
       <div className="client-list">
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/11.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/22.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/33.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/44.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/55.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/66.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/77.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/88.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/99.png" alt="" height={"80px"} width={"100px"}/>
         </div>
         <div className="client-item">
-            <img src="/images/1.jpg" alt="" height={"80px"} width={"100px"}/>
+            <img src="/images/10.jpg" alt="" height={"80px"} width={"100px"}/>
         </div>
       </div>
       <button>
