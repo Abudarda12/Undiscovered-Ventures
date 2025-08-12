@@ -11,12 +11,12 @@ export default function Portfolio() {
         <h1>PORTFOLIO</h1>
       </div>
       <div className="portfolio-list">
-        <img src="/images/5d087b9f19889c2ec7f832d64dab895a2155b5bd.jpg" alt="" height={"300px"} width={"300px"}/>
-         <img src="/images/5d087b9f19889c2ec7f832d64dab895a2155b5bd.jpg" alt="" height={"300px"} width={"300px"}/>
-          <img src="/images/5d087b9f19889c2ec7f832d64dab895a2155b5bd.jpg" alt="" height={"300px"} width={"300px"}/>
-           <img src="/images/5d087b9f19889c2ec7f832d64dab895a2155b5bd.jpg" alt="" height={"300px"} width={"300px"}/>
-            <img src="/images/5d087b9f19889c2ec7f832d64dab895a2155b5bd.jpg" alt="" height={"300px"} width={"300px"}/>
-             <img src="/images/5d087b9f19889c2ec7f832d64dab895a2155b5bd.jpg" alt="" height={"300px"} width={"300px"}/>
+        <img src="/images/1.jpg" alt="" height={"300px"} width={"300px"}/>
+        <img src="/images/2.jpg" alt="" height={"300px"} width={"300px"}/>
+        <img src="/images/3.jpg" alt="" height={"300px"} width={"300px"}/>
+        <img src="/images/4.jpg" alt="" height={"300px"} width={"300px"}/>
+        <img src="/images/5.jpg" alt="" height={"300px"} width={"300px"}/>
+        <img src="/images/6.jpg" alt="" height={"300px"} width={"300px"}/>
       </div>
     </div>
   );

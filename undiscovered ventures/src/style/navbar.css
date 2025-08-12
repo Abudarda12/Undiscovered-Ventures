@@ -39,6 +39,10 @@ nav{
 }
 
 @media (max-width: 768px) {
+    .logo img{
+        height: 30px;
+        width: 30px;
+    }
     .menu{
         display: none;
     }

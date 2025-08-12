@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <img src="./images/logo.png" alt="Logo" height={"40px"} />
+        <img src="./images/logo.png" alt="Logo" height={"40px"} width={"40px"} />
         <p>Undiscoverd Ventures</p>
       </div>
       <div className="menu">
