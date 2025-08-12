@@ -77,7 +77,7 @@ button:hover{
     }
     .client-item img {
         width: 60%; /* Make image responsive */
-        height: auto; /* Maintain aspect ratio */
+        height: 60px; /* Maintain aspect ratio */
     }
 }
 
