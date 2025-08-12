@@ -98,6 +98,13 @@
 
 .container {
   text-align: left;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.container:hover {
+  transform: scale(1.05) rotate(3deg);
+  
+  
 }
 
 .title-box {
