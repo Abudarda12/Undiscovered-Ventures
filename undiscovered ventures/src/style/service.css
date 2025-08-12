@@ -95,3 +95,36 @@
     margin-bottom: 20px;
   }
 }
+
+.container {
+  text-align: left;
+}
+
+.title-box {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.content-box {
+  background: #2eff6f; /* bright green */
+  padding: 20px;
+  margin-top: -10px; /* slight overlap */
+  clip-path: path("M 0 0 H calc(100% - 50px) Q 100% 0 100% 50 V 100% Q 100% 100% 0 100% Z");
+  border-radius: 20px;
+  height: 250px;
+  width: 230px;
+}
+
+.content-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.content-box li {
+  margin: 10px 0;
+  font-weight: bold;
+}

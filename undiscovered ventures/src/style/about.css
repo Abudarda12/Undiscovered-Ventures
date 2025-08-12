@@ -1,0 +1,27 @@
+.about-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+  background: white;
+}
+
+.about-title {
+  display: inline-block;
+  padding: 8px 20px;
+  background: #00e05a;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.about-text {
+  color: #333;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+}
