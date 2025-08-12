@@ -1,0 +1,20 @@
+.hero{
+    padding: 20px 20px;
+    background-image: url('./images/hero.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.upper-hero{
+   padding: 50px;
+}
+.lower-hero{
+   padding: 50px;
+}
