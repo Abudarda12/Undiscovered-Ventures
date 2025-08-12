@@ -71,6 +71,14 @@ button:hover{
         flex-direction: column; /* Stack heading elements vertically */
         align-items: center; /* Center align items */
     }
+    .client-item {
+        width: 100%; /* Full width for smaller screens */
+        height: 80px; /* Adjust height for smaller screens */
+    }
+    .client-item img {
+        width: 60%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
 }
 
 
