@@ -1,92 +1,90 @@
-.client{
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("/images/client.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #220c15;
-    margin: 30px auto;
-    border-radius: 10px;
-    color: white;
-    justify-content: space-evenly;
-    padding: 10px;
-    gap: 20px;
-    height: 100vh;
+.client {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/images/client.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #220c15;
+  margin: 30px auto;
+  border-radius: 10px;
+  color: white;
+  justify-content: space-evenly;
+  padding: 10px;
+  gap: 20px;
+  height: 100vh;
 }
-.client-heading{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+.client-heading {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
-.client-list{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    gap: 20px; /* space between images */
-    justify-items: center;
-    align-items: center;
+.client-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 10px; /* space between images */
+  justify-items: center;
+  align-items: center;
 }
-.client-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    width: 180px;
-    background-color: #D9D9D9;
+.client-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 180px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  opacity: 80%;
+  img {
     border-radius: 5px;
-    opacity: 80%;
-    img{
-        border-radius: 5px;
-    }
+  }
 }
 
-button{
-    height: 45px;
-    width: 200px;
-    border-radius: 28px;
-    border: .5px solid white;
-    background-image: linear-gradient(to top, #1f2130 ,#4b4956);
-    transition: all .3s ease-in-out;
-    cursor: pointer;
+button {
+  height: 45px;
+  width: 200px;
+  border-radius: 28px;
+  border: 0.5px solid white;
+  background-color: transparent; /* Make fill transparent */
 
-    a{
-        text-decoration: none;
-        color: #fff;
-        font-weight: 500;
-        font-size: 18px;
-    }
-   
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+  }
 }
-button:hover{
-     background-image: linear-gradient(to bottom, #1f2130 ,#4b4956);
-    border: 1px solid rgb(155, 155, 155);
-    transform: scale(1.1);
-    a{
-        color: #c5c5c5;
-    }
+button:hover {
+  
+  border: 2px solid #46ff65;
+  transform: scale(1.1);
+  a {
+    color: #46ff65;
+  }
 }
 
 @media (max-width: 990px) {
-    .client-list {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
-        gap: 8px; /* Adjust space between images */
-        align-items: center;
-    }
-    
-    .client-heading {
-        flex-direction: column; /* Stack heading elements vertically */
-        align-items: center; /* Center align items */
-    }
-    .client-item {
-        width: 100%; /* Full width for smaller screens */
-        height: 60px; /* Adjust height for smaller screens */
-    }
-    .client-item img {
-        width: 60%; /* Make image responsive */
-        height: 40px; /* Maintain aspect ratio */
-    }
+  .client-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    gap: 8px; /* Adjust space between images */
+    align-items: center;
+  }
+
+  .client-heading {
+    flex-direction: column; /* Stack heading elements vertically */
+    align-items: center; /* Center align items */
+  }
+  .client-item {
+    width: 100%; /* Full width for smaller screens */
+    height: 60px; /* Adjust height for smaller screens */
+  }
+  .client-item img {
+    width: 60%; /* Make image responsive */
+    height: 40px; /* Maintain aspect ratio */
+  }
 }
-
-

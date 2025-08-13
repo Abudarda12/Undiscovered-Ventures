@@ -8,12 +8,7 @@ export default function Service() {
         <div className="s-header">
           <h1>Services.</h1>
         </div>
-        <div className="s-subheader">
-          <h5>
-            We’ve helped businesses across <br />
-            industries achieve their goals.
-          </h5>
-        </div>
+        
       </div>
 
      

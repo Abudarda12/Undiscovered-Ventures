@@ -1,9 +1,13 @@
 .our-product {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   font-family: Arial, sans-serif;
   padding: 40px;
   background: white;
   max-width: 1200px;
   margin: auto;
+  gap: 20px;
 }
 
 .section-title {
@@ -20,7 +24,8 @@
   margin-top: 15px;
   margin-bottom: 30px;
   color: #555;
-  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 500;
 
 }
 
