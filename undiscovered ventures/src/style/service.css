@@ -12,11 +12,18 @@
     font-weight: bold;
     text-align: start;
     margin-left: 100px;
+    h1 {
+     font-size: 80px;
+     font-weight: bold;
+     color: transparent; /* Make fill transparent */
+     -webkit-text-stroke: .8px #000; /* Outline thickness and color */
+}
   }
   .s-subheader {
     font-size: 1.2rem;
     text-align: end;
     margin-right: 100px;
+ 
     h5 {
       font-weight: 400;
       color: #333;
@@ -78,8 +85,11 @@
   }
   .service-header {
     .s-header {
-      font-size: 1.5rem;
-      margin-left: 20px;
+      h1{
+        font-size: 2.5rem;
+        margin-left: 0px;
+      }
+      margin-left: 0px;
     }
     .s-subheader {
       font-size: 0.8rem;
@@ -129,9 +139,13 @@
 .content-box ul {
   list-style-type: disc;
   padding-left: 20px;
+  
 }
 
 .content-box li {
   margin: 10px 0;
   font-weight: bold;
+  p{
+    font-size: small;
+  }
 }
