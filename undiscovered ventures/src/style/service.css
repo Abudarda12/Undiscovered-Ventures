@@ -107,33 +107,42 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   text-align: left;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
 .container:hover {
   transform: scale(1.05) rotate(3deg);
-  
-  
 }
 
 .title-box {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background: white;
   border-radius: 20px;
   border: 1px solid #ccc;
   font-weight: bold;
+  width: 70%;
+  margin-bottom: -20px;
+  margin-left: -10px;
+  transform: scale(0.8); ;
 }
 
 .content-box {
-  background: #2eff6f; /* bright green */
-  padding: 20px;
+  
+  background-image: url(/images/Subtract.png); /* bright green */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 40px 25px 40px;
   margin-top: -10px; /* slight overlap */
   clip-path: path("M 0 0 H calc(100% - 50px) Q 100% 0 100% 50 V 100% Q 100% 100% 0 100% Z");
   border-radius: 20px;
-  height: 250px;
-  width: 230px;
+  height: 280px;
+  width: 250px;
 }
 
 .content-box ul {
