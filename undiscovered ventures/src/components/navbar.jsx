@@ -16,9 +16,9 @@ export default function Navbar() {
         <p>Undiscoverd Ventures</p>
       </div>
       <div className="menu">
-        <a href="#">Home</a>
-        <a href="#project">Projects</a>
-        <a href="#service">Services</a>
+         <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#project"><i class="fa-solid fa-file"></i> Projects</a>
+        <a href="#service"><i class="fa-solid fa-laptop"></i> Services</a>
       </div>
       <div className="nav-contact">
         <a href="#contact">
@@ -30,11 +30,11 @@ export default function Navbar() {
       </div>
     </nav>
     <div className={"mobile-menu"} id={`${active?"show":''}`}>
-        <a href="#">Home</a>
-        <a href="#project">Projects</a>
-        <a href="#service">Services</a>
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#project"><i class="fa-solid fa-file"></i> Projects</a>
+        <a href="#service"><i class="fa-solid fa-laptop"></i> Services</a>
         <a href="#contact">
-          Contact<i class="fa-solid fa-circle-user"></i>{" "}
+         <i class="fa-solid fa-circle-user"></i> Contact
         </a>
       </div>
     </>
