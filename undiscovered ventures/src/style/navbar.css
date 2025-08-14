@@ -52,5 +52,23 @@ nav{
     .hamburger{
         display: block;
     }
+    #show{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        z-index: 100;
+        position: absolute;
+        top: 80px;
+        right: 15px;
+        width: 80vw;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 30px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
   
 }

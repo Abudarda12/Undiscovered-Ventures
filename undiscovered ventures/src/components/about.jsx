@@ -3,7 +3,7 @@ import "../style/about.css";
 
 const AboutUs = () => {
   return (
-    <section className="about-container">
+    <section className="about-container" id="contact">
       <div className="about-title">About Us</div>
       <p className="about-text">
         Being established in 2021, Undiscovered Ventures is more than a Production

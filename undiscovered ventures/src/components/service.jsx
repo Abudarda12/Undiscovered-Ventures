@@ -3,7 +3,7 @@ import "../style/service.css";
 
 export default function Service() {
   return (
-    <div className="service">
+    <div className="service" id="service">
       <div className="service-header">
         <div className="s-header">
           <h1>Services.</h1>

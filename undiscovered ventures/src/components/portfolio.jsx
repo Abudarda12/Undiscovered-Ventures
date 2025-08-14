@@ -3,7 +3,7 @@ import "../style/portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="project">
       <div className="portfolio-content">
         <div className="portfolio-heading">
           <div className="project">
@@ -18,6 +18,9 @@ export default function Portfolio() {
           <img src="/images/4.jpg" alt="" height={"300px"} width={"300px"} />
           <img src="/images/5.jpg" alt="" height={"300px"} width={"300px"} />
           <img src="/images/6.jpg" alt="" height={"300px"} width={"300px"} />
+          <img src="/images/12.jpg" alt="" height={"300px"} width={"300px"} />
+          <img src="/images/13.jpg" alt="" height={"300px"} width={"300px"} />
+          <img src="/images/14.jpg" alt="" height={"300px"} width={"300px"} />
         </div>
       </div>
     </div>

@@ -3,3 +3,6 @@ body{
     padding: 16px;
     font-family:"Poppins", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}

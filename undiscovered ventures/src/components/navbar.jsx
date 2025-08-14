@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "../style/navbar.css";
 
 export default function Navbar() {
-  const [active, setActive] = useState(true);
+  const [active, setActive] = useState(false);
 
   const toggleActive = () => {
     setActive(!active);
   };
 
   return (
+    <>
     <nav>
       <div className="logo">
         <img src="./images/logo.png" alt="Logo" height={"40px"} width={"40px"} />
@@ -16,26 +17,26 @@ export default function Navbar() {
       </div>
       <div className="menu">
         <a href="#">Home</a>
-        <a href="#">Projects</a>
-        <a href="#">Services</a>
+        <a href="#project">Projects</a>
+        <a href="#service">Services</a>
       </div>
       <div className="nav-contact">
-        <a href="#">
+        <a href="#contact">
           Contact<i class="fa-solid fa-circle-user"></i>{" "}
         </a>
       </div>
       <div className="hamburger" onClick={toggleActive}>
-        <i class="fa-solid fa-circle-user"></i>
+        <i class={`fa-solid fa-${!active?"bars":"x"}`}></i>
       </div>
-
-      <div className={`mobile-menu ${!active ? "active" : ""}`}>
+    </nav>
+    <div className={"mobile-menu"} id={`${active?"show":''}`}>
         <a href="#">Home</a>
-        <a href="#">Projects</a>
-        <a href="#">Services</a>
-        <a href="#">
+        <a href="#project">Projects</a>
+        <a href="#service">Services</a>
+        <a href="#contact">
           Contact<i class="fa-solid fa-circle-user"></i>{" "}
         </a>
       </div>
-    </nav>
+    </>
   );
 }

@@ -41,6 +41,18 @@ export default function Client() {
         <div className="client-item">
             <img src="/images/10.jpg" alt="" height={"80px"} width={"100px"}/>
         </div>
+        <div className="client-item">
+            <img src="/images/01.png" alt="" height={"80px"} width={"100px"}/>
+        </div>
+        <div className="client-item">
+            <img src="/images/03.png" alt="" height={"100px"} width={"150px"}/>
+        </div>
+        <div className="client-item">
+            <img src="/images/04.png" alt="" height={"100px"} width={"150px"}/>
+        </div>
+        <div className="client-item">
+            <img src="/images/05.png" alt="" height={"100px"} width={"150px"}/>
+        </div>
       </div>
       <button>
         <a href="#">Get in Touch</a>
