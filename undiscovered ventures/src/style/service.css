@@ -34,49 +34,20 @@
 .service-list {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 30px;
 }
-.service-item {
-  width: 40%;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  .item-heading {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    border: 1px solid #333;
-    border-radius: 20px;
-    text-align: center;
-  }
 
-  .item-content {
-    text-align: start;
-    font-size: 0.8rem;
-    height: 250px;
-    width: 230px;
-    padding: 10px;
-    background-color: #46ff65;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    ul {
-      padding: 0;
-      li {
-        margin-bottom: 10px;
-        font-size: 1rem;
-        list-style: none;
-        p {
-          margin: 0;
-          font-size: 0.6rem;
-        }
-      }
-    }
+
+@media (max-width: 1150px) {
+  .container{
+    transform: scale(0.8);
   }
-}
-.service-item:hover {
-  transform: rotate(5deg) scale(1.05);
+  .container:hover {
+    transform: scale(0.85) rotate(3deg);
+  }
+  .service-list{
+    gap: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -100,10 +71,10 @@
     flex-direction: column;
     align-items: center;
   }
-  .service-item {
-    width: 90%;
-    margin-bottom: 20px;
+   .container:hover {
+    transform: scale(0.85) rotate(3deg);
   }
+ 
 }
 
 .container {
@@ -114,9 +85,9 @@
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
-.container:hover {
-  transform: scale(1.05) rotate(3deg);
-}
+  .container:hover {
+    transform: scale(1.01) rotate(3deg);
+  }
 
 .title-box {
   display: inline-block;

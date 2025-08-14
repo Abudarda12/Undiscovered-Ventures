@@ -11,7 +11,6 @@ export default function Service() {
         
       </div>
 
-     
 
       <div className="service-list">
         <div class="container">
