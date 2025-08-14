@@ -1,20 +1,27 @@
 .client {
-  width: 95%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/images/client.jpg");
+  justify-content: center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #220c15;
+  background-color: black;
   margin: 30px auto;
   border-radius: 10px;
   color: white;
-  justify-content: space-evenly;
-  padding: 10px;
-  gap: 20px;
-  height: 100vh;
+  height: 70vh;
+  padding: 20px;
+}
+.client-content {
+  width: 80%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 90%;
+  background-color: #413d3d;
 }
 .client-heading {
   width: 80%;
@@ -22,24 +29,29 @@
   justify-content: space-between;
 }
 .client-list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  display: flex;
+  overflow: hidden;
+  width: 80%;
   gap: 10px; /* space between images */
   justify-items: center;
   align-items: center;
 }
-.client-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90px;
-  width: 180px;
-  background-color: #d9d9d9;
+
+
+.client-list img {
+  object-fit: contain;
   border-radius: 5px;
-  opacity: 80%;
-  img {
-    border-radius: 5px;
+    animation: slideImages 10s linear infinite;
+}
+
+@keyframes slideImages {
+  0% {
+    transform: translateX(100px);
   }
+  100% {
+    transform: translateX(-400px);
+  }
+  
 }
 
 button {

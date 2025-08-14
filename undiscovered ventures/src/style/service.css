@@ -120,19 +120,20 @@
 
 .title-box {
   display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 10px;
   background: white;
   border-radius: 20px;
   border: 1px solid #ccc;
-  font-weight: bold;
   width: 70%;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
   margin-left: -10px;
   transform: scale(0.8); ;
 }
 
 .content-box {
-  
   background-image: url(/images/Subtract.png); /* bright green */
   background-size: cover;
   background-position: center;
@@ -153,7 +154,6 @@
 
 .content-box li {
   margin: 10px 0;
-  font-weight: bold;
   p{
     font-size: small;
   }
