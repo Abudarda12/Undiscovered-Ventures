@@ -5,6 +5,10 @@ export default function Hero() {
   return (
     <main>
       <div className="hero">
+        <video className="hero-video" autoPlay muted loop playsInline>
+          <source src="/images/showreels ud.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> 
         <div className="upper-hero">
           <div className="upper-content">
             <h1>Undiscovered</h1>
