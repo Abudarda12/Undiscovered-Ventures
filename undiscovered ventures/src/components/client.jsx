@@ -58,41 +58,41 @@ export default function Client() {
           </div>
           <div className="lower-client">
             <div className="client-cover">
-              <img src="/images/11.png" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/aga khan foundation.png" alt="" height={"80px"} width={"100px"} />
             </div>
             <div className="client-cover">
-              <img src="/images/22.png" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/balaji telefilms.png" alt="" height={"80px"} width={"100px"} />
             </div>
             <div className="client-cover">
-              <img src="/images/33.png" alt="" height={"80px"} width={"100px"} />
-            </div>
-
-            <div className="client-cover">
-              <img src="/images/44.png" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/bihar police.png" alt="" height={"80px"} width={"100px"} />
             </div>
 
             <div className="client-cover">
-              <img src="/images/55.png" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/bihar tourism.png" alt="" height={"80px"} width={"100px"} />
             </div>
 
             <div className="client-cover">
-              <img src="/images/66.png" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/dehaat.png" alt="" height={"80px"} width={"100px"} />
             </div>
 
             <div className="client-cover">
-              <img src="/images/77.png" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/election commision of india.png" alt="" height={"80px"} width={"100px"} />
             </div>
 
             <div className="client-cover">
-              <img src="/images/88.png" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/GNSU.png" alt="" height={"80px"} width={"100px"} />
             </div>
 
             <div className="client-cover">
-              <img src="/images/99.png" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/google.png" alt="" height={"80px"} width={"100px"} />
             </div>
 
             <div className="client-cover">
-              <img src="/images/10.jpg" alt="" height={"80px"} width={"100px"} />
+              <img src="/images/krishi vibhag.png" alt="" height={"80px"} width={"100px"} />
+            </div>
+
+            <div className="client-cover">
+              <img src="/images/pariyawaran.png" alt="" height={"80px"} width={"100px"} />
             </div>
           </div>
         </div>

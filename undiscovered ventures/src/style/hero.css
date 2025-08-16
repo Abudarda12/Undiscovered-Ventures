@@ -1,16 +1,19 @@
+
+
 .hero {
   padding: 20px 20px;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 80vh;
   border-radius: 25px;
   background-repeat: no-repeat;
   color: #fff;
   display: flex;
   flex-direction: column;
-    justify-content: center;
+  justify-content: center;
   align-items: start;
   position: relative;
+  margin: auto 20px;
   overflow: hidden;
 }
 .hero::before {
